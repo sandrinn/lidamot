@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liðamót PFH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Liðamót PFH 2026</h1>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('dates')">Áætlun</button>
+            <button class="tab-button" onclick="openTab('points')">Stigatafla</button>
+            <button class="tab-button" onclick="openTab('results')">Úrslit</button>
+        </div>
+
+        <div id="dates" class="tab-content active">
+            <div class="schedule-display">
+                <!-- Week 1 -->
+                <div class="week week-done">
+                    <h4>Vika 1</h4>
+                    <div class="week-date">14.01.2026</div>
+                    <div class="match">Dartmonster (H) vs Oddar (A)</div>
+                    <div class="match">Bbm (H) vs Æðiskast (A)</div>
+                    <div class="bye">Dartvalla - BYE (Week Off)</div>
+                    <div class="bye">Skytturnar - Not in Tournament</div>
+                </div>
+
+                <!-- Week 2 -->
+                <div class="week">
+                    <h4>Vika 2</h4>
+                    <div class="week-date">21.01.2026</div>
+                    <div class="match">Æðiskast (H) vs Dartmonster (A)</div>
+                    <div class="match">Oddar (H) vs Dartvalla (A)</div>
+                    <div class="match">Skytturnar (H) vs BBM (A)</div>
+                </div>
+
+                <!-- Week 3 -->
+                <div class="week">
+                    <h4>Vika 3</h4>
+                    <div class="week-date">27.01.2026</div>
+                    <div class="match">Dartmonster (H) vs Skytturnar (A)</div>
+                    <div class="match">Bbm (H) vs Oddar (A)</div>
+                    <div class="match">Dartvalla (H) vs Æðiskast (A)</div>
+                </div>
+
+                <!-- Week 4 -->
+                <div class="week">
+                    <h4>Vika 4</h4>
+                    <div class="week-date">04.02.2026</div>
+                    <div class="match">Æðiskast (H) vs Skytturnar (A)</div>
+                    <div class="match">Oddar (H) vs Dartmonster (A)</div>
+                    <div class="match">Dartvalla (H) vs Bbm (A)</div>
+                </div>
+
+                <!-- Week 5 -->
+                <div class="week">
+                    <h4>Vika 5</h4>
+                    <div class="week-date">11.02.2026</div>
+                    <div class="match">Dartmonster (H) vs Dartvalla (A)</div>
+                    <div class="match">Bbm (H) vs Æðiskast (A)</div>
+                    <div class="match">Skytturnar (H) vs Oddar (A)</div>
+                </div>
+
+                <!-- Week 6 (Return Fixtures Begin) -->
+                <div class="week">
+                    <h4>Vika 6</h4>
+                    <div class="week-date">18.02.2026</div>
+                    <div class="match">Oddar (H) vs Dartmonster (A)</div>
+                    <div class="match">Æðiskast (H) vs Bbm (A)</div>
+                    <div class="match">Skytturnar (H) vs Dartvalla (A)</div>
+                </div>
+
+                <!-- Week 7 -->
+                <div class="week">
+                    <h4>Vika 7</h4>
+                    <div class="week-date">25.02.2026</div>
+                    <div class="match">Dartmonster (H) vs Æðiskast (A)</div>
+                    <div class="match">Bbm (H) vs Skytturnar (A)</div>
+                    <div class="match">Dartvalla (H) vs Oddar (A)</div>
+                </div>
+
+                <!-- Week 8 -->
+                <div class="week">
+                    <h4>Vika 8</h4>
+                    <div class="week-date">03.03.2026</div>
+                    <div class="match">Skytturnar (H) vs Dartmonster (A)</div>
+                    <div class="match">Oddar (H) vs Bbm (A)</div>
+                    <div class="match">Æðiskast (H) vs Dartvalla (A)</div>
+                </div>
+
+                <!-- Week 9 -->
+                <div class="week">
+                    <h4>Vika 9</h4>
+                    <div class="week-date">11.03.2026</div>
+                    <div class="match">Skytturnar (H) vs Æðiskast (A)</div>
+                    <div class="match">Dartmonster (H) vs Oddar (A)</div>
+                    <div class="match">Bbm (H) vs Dartvalla (A)</div>
+                </div>
+
+                <!-- Week 10 -->
+                <div class="week">
+                    <h4>Vika 10</h4>
+                    <div class="week-date">18.03.2026</div>
+                    <div class="match">Dartvalla (H) vs Dartmonster (A)</div>
+                    <div class="match">Æðiskast (H) vs Bbm (A)</div>
+                    <div class="match">Oddar (H) vs Skytturnar (A)</div>
+                </div>
+
+                <!-- Week 11 (Makeup Week) -->
+                <div class="week">
+                    <h4>Vika 11 - Makeup Week</h4>
+                    <div class="week-date">25.03.2026</div>
+                    <div class="match"> Óákveðið</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stigatafla -->
+
+        <div id="points" class="tab-content">
+            <div class="points-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sæti</th>
+                            <th>Lið</th>
+                            <th>Spilað</th>
+                            <th>Stig</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Æðiskast</td>
+                            <td>1</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Dartmonster</td>
+                            <td>1</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Oddar</td>
+                            <td>1</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bbm</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Dartvalla</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Skytturnar</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Úrslit -->
+
+        <div id="results" class="tab-content">
+            <h2>Úrslit</h2>
+            <div class="points-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vika</th>
+                            <th>Heimalið</th>
+                            <th>Stig</th>
+                            <th></th>
+                            <th>Stig</th>
+                            <th>Útilið</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Week 1 Results -->
+                        <tr>
+                            <td>1</td>
+                            <td>Dartmonster</td>
+                            <td>5</td>
+                            <td>-</td>
+                            <td>3</td>
+                            <td>Oddar</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Bbm</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>7</td>
+                            <td>Æðiskast</td>
+                        </tr>
+                        <!-- Add future results here as games are played -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
